@@ -1,4 +1,4 @@
-# React Native front-end aplication
+# React Native front-end application
 ## About
 - using npm
 - google fonts
