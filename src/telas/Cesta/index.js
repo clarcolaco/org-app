@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, ScrollView } from 'react-native';
 import Detalhes from './componentes/Detalhes';
 import Itens from './componentes/Itens';
 import Topo from './componentes/Topo';
@@ -8,7 +8,7 @@ import Topo from './componentes/Topo';
 
 
 export default function Cesta({ topo, detalhes, itens}) {
-    return <>
+    return <ScrollView>
 
         <Topo {...topo} />
         <View style={estilos.cesta}>
@@ -20,7 +20,7 @@ export default function Cesta({ topo, detalhes, itens}) {
         </View>
 
 
-    </>
+    </ScrollView>
 }
 
 
