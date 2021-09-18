@@ -25,12 +25,15 @@ const estilos = StyleSheet.create({
     titulo: {
         width: "100%",
         position: "absolute",
+        paddingTop:10,
+        paddingBottom: 7,
         textAlign: "center",
-        fontSize: 23,
+        fontSize: 18,
         lineHeight: 16,
         color: "white",
-        padding: 40,
+        backgroundColor: "#2F4F4F",
         fontWeight: "bold",
+        alignSelf: "center",
 
     },
     });
