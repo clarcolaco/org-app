@@ -26,7 +26,7 @@ export default function Detalhes({ nome, logoFazenda, nomeFazenda, descricao, pr
             {preco}
         </Texto>
 
-        <Botao texto={botao} style={estilos.botao} onPress={() => {}} />
+        <Botao texto={botao} style={estilos.botao} onPress={() => { }} />
 
 
     </>
@@ -73,5 +73,6 @@ const estilos = StyleSheet.create({
         alignSelf: "center",
     },
     botao: {
-        marginTop: 16,}
+        marginTop: 8,
+    }
 });
